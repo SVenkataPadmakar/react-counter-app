@@ -12,13 +12,13 @@ A simple and elegant counter application built with React and Vite.
 ## Screenshots
 
 ### Counter Interface
-![Counter Interface]()
+![Counter Interface](counterinterface.png)
 
 ### Increment Action
-![Increment Counter]()
+![Increment Counter](incrementcounter.png)
 
 ### Decrement Action
-![Decrement Counter]()
+![Decrement Counter](decrementcounter.png)
 
 ## Project Structure
 
