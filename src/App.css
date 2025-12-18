@@ -1,0 +1,84 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+}
+
+/* Main app background */
+.main {
+  background-color: mediumvioletred;
+  min-height: 100vh;   /* cover full viewport height */
+  width: 100vw;         /* cover full viewport width */
+  display: flex;
+  flex-direction: column;
+}
+
+/* Header styles */
+.main-header {
+  background-color: lightpink;
+  padding: 20px 0;
+}
+
+/* Navigation list */
+.main-header ul {
+  display: flex;
+  justify-content: center;   /* center nav items */
+  gap: 50px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+/* Navigation items */
+.main-header ul li {
+  font-size: 22px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+.main-header ul li:hover {
+  color: darkred;
+}
+
+/* Counter section */
+.counter {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  text-align: center;
+}
+
+.counter h3 {
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+.counter button {
+  font-size: 20px;
+  padding: 10px 20px;
+  margin: 0 10px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  background-color: #fff;
+  color: mediumvioletred;
+  font-weight: bold;
+  transition: background 0.3s ease, transform 0.2s ease;
+}
+
+.counter button:hover {
+  background-color: lightpink;
+  transform: scale(1.05);
+}
